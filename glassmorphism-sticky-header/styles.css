@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; }
+html, body { background-color: #0e0f14; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #dadbf5; }
+main { height: 150vh; padding: 10vh 20vw; }
+main > * { margin-bottom: 1rem; }
+p { line-height: 1.5; }
+
+header {
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #2d2d4a;
+    backdrop-filter: blur(15px);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
